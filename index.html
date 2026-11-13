@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Converter Hub</title>
+
+    <meta name="description"
+          content="Converta documentos, imagens e arquivos online de forma rápida e gratuita.">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <a href="#"
+               class="logo">
+
+                <div class="logo-icon">
+
+                    📸
+
+                </div>
+
+                <div>
+
+                    <h2>Converter Hub</h2>
+
+                    <span>Conversor Universal</span>
+
+                </div>
+
+            </a>
+
+            <nav>
+
+                <ul>
+
+                    <li><a href="#">Início</a></li>
+
+                    <li><a href="#">Conversores</a></li>
+
+                    <li><a href="#">Categorias</a></li>
+
+                    <li><a href="#">API</a></li>
+
+                    <li><a href="#">Contato</a></li>
+
+                </ul>
+
+            </nav>
+
+            <button id="themeToggle">
+
+                🌙
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <h1>
+
+                Converta qualquer arquivo para JPG
+
+            </h1>
+
+            <p>
+
+                Rápido, gratuito e sem instalação.
+
+            </p>
+
+            <div class="search-box">
+
+                <input
+
+                    id="searchInput"
+
+                    type="text"
+
+                    placeholder="Pesquisar conversão...">
+
+                <button>
+
+                    🔍 Pesquisar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= POPULARES ================= -->
+
+    <section class="popular">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                🔥 Conversões Populares
+
+            </div>
+
+            <div class="popular-grid">
+
+    <div class="popular-card" data-converter="pdf-to-jpg">PDF → JPG</div>
+
+    <div class="popular-card" data-converter="png-to-jpg">PNG → JPG</div>
+
+    <div class="popular-card" data-converter="webp-to-jpg">WEBP → JPG</div>
+
+    <div class="popular-card" data-converter="docx-to-jpg">DOCX → JPG</div>
+
+    <div class="popular-card" data-converter="heic-to-jpg">HEIC → JPG</div>
+
+    <div class="popular-card" data-converter="svg-to-jpg">SVG → JPG</div>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= DOCUMENTOS ================= -->
+
+    <section class="category">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                📄 Documentos
+
+            </div>
+
+           <div class="converter-grid">
+
+    <div class="converter-card" data-converter="pdf-to-jpg">PDF → JPG</div>
+
+    <div class="converter-card" data-converter="doc-to-jpg">DOC → JPG</div>
+
+    <div class="converter-card" data-converter="docx-to-jpg">DOCX → JPG</div>
+
+    <div class="converter-card" data-converter="odt-to-jpg">ODT → JPG</div>
+
+    <div class="converter-card" data-converter="rtf-to-jpg">RTF → JPG</div>
+
+    <div class="converter-card" data-converter="txt-to-jpg">TXT → JPG</div>
+
+    <div class="converter-card" data-converter="xps-to-jpg">XPS → JPG</div>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= OFFICE ================= -->
+
+    <section class="category">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                💼 Microsoft Office
+
+            </div>
+
+            <div class="converter-grid">
+
+    <div class="converter-card" data-converter="docx-to-jpg">DOCX → JPG</div>
+
+    <div class="converter-card" data-converter="xls-to-jpg">XLS → JPG</div>
+
+    <div class="converter-card" data-converter="xlsx-to-jpg">XLSX → JPG</div>
+
+    <div class="converter-card" data-converter="ppt-to-jpg">PPT → JPG</div>
+
+    <div class="converter-card" data-converter="pptx-to-jpg">PPTX → JPG</div>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= IMAGENS ================= -->
+
+    <section class="category">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                🖼️ Imagens
+
+            </div>
+
+            <div class="converter-grid">
+
+    <div class="converter-card" data-converter="png-to-jpg">PNG → JPG</div>
+
+    <div class="converter-card" data-converter="webp-to-jpg">WEBP → JPG</div>
+
+    <div class="converter-card" data-converter="jpeg-to-jpg">JPEG → JPG</div>
+
+    <div class="converter-card" data-converter="heic-to-jpg">HEIC → JPG</div>
+
+    <div class="converter-card" data-converter="avif-to-jpg">AVIF → JPG</div>
+
+    <div class="converter-card" data-converter="jfif-to-jpg">JFIF → JPG</div>
+
+    <div class="converter-card" data-converter="gif-to-jpg">GIF → JPG</div>
+
+    <div class="converter-card" data-converter="bmp-to-jpg">BMP → JPG</div>
+
+    <div class="converter-card" data-converter="svg-to-jpg">SVG → JPG</div>
+
+    <div class="converter-card" data-converter="tiff-to-jpg">TIFF → JPG</div>
+
+    <div class="converter-card" data-converter="jp2-to-jpg">JP2 → JPG</div>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= RAW ================= -->
+
+    <section class="category">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                📷 RAW
+
+            </div>
+
+            <div class="converter-grid">
+
+    <div class="converter-card" data-converter="cr2-to-jpg">CR2 → JPG</div>
+
+    <div class="converter-card" data-converter="arw-to-jpg">ARW → JPG</div>
+
+    <div class="converter-card" data-converter="nef-to-jpg">NEF → JPG</div>
+
+</div>
+        </div>
+
+    </section>
+
+    <!-- ================= DESIGN ================= -->
+
+    <section class="category">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                🎨 Design
+
+            </div>
+
+            <div class="converter-grid">
+
+    <div class="converter-card" data-converter="psd-to-jpg">PSD → JPG</div>
+
+    <div class="converter-card" data-converter="ai-to-jpg">AI → JPG</div>
+
+    <div class="converter-card" data-converter="eps-to-jpg">EPS → JPG</div>
+
+    <div class="converter-card" data-converter="cdr-to-jpg">CDR → JPG</div>
+
+</div>
+        </div>
+
+    </section>
+
+    <!-- ================= WEB ================= -->
+
+    <section class="category">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                🌍 Web
+
+            </div>
+
+            <div class="converter-grid">
+
+    <div class="converter-card" data-converter="html-to-jpg">
+
+        HTML → JPG
+
+    </div>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= COMO FUNCIONA ================= -->
+
+    <section class="how">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                🚀 Como funciona
+
+            </div>
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <span>1️⃣</span>
+
+                    <h3>Escolha a conversão</h3>
+
+                    <p>
+
+                        Selecione o formato desejado.
+
+                    </p>
+
+                </div>
+
+                <div class="step">
+
+                    <span>2️⃣</span>
+
+                    <h3>Envie o arquivo</h3>
+
+                    <p>
+
+                        Arraste ou selecione seu arquivo.
+
+                    </p>
+
+                </div>
+
+                <div class="step">
+
+                    <span>3️⃣</span>
+
+                    <h3>Baixe o resultado</h3>
+
+                    <p>
+
+                        Em poucos segundos.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ESTATÍSTICAS ================= -->
+
+    <section class="stats">
+
+        <div class="container">
+
+            <div class="stat">
+
+                <h2>35+</h2>
+
+                <span>Conversores</span>
+
+            </div>
+
+            <div class="stat">
+
+                <h2>100%</h2>
+
+                <span>Online</span>
+
+            </div>
+
+            <div class="stat">
+
+                <h2>∞</h2>
+
+                <span>Gratuito</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+
+                © 2026 Converter Hub
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/upload.js"></script>
+    <script src="js/converter.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

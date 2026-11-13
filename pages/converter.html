@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Conversor</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/animations.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container">
+
+        <a href="../index.html" class="logo">
+
+            <div class="logo-icon">
+
+                📸
+
+            </div>
+
+            <div>
+
+                <h2>Converter Hub</h2>
+
+                <span>Conversor Universal</span>
+
+            </div>
+
+        </a>
+
+    </div>
+
+</header>
+
+<section class="hero">
+
+    <div class="container hero-content">
+
+        <h1 id="converterTitle">
+
+            Conversor
+
+        </h1>
+
+        <p id="converterDescription">
+
+            Arraste um arquivo para iniciar.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="upload-section">
+
+    <div class="container">
+
+        <div id="dropZone" class="upload-box">
+
+            <div class="upload-icon">
+
+                📂
+
+            </div>
+
+            <h2>
+
+                Arraste arquivos aqui
+
+            </h2>
+
+            <p>
+
+                ou
+
+            </p>
+
+            <button id="selectFile">
+
+                Selecionar Arquivo
+
+            </button>
+
+            <input
+                id="fileInput"
+                type="file"
+                hidden>
+
+        </div>
+
+        <!-- CARD DO ARQUIVO -->
+
+        <div id="fileCard" class="file-card">
+
+            <div class="file-preview">
+
+                <img
+                    id="previewImage"
+                    src=""
+                    alt="Preview">
+
+            </div>
+
+            <div class="file-info">
+
+                <h3 id="fileName">
+
+                    Nenhum arquivo
+
+                </h3>
+
+                <p id="fileSize">
+
+                    --
+
+                </p>
+
+            </div>
+
+            <button id="removeFile">
+
+                🗑
+
+            </button>
+
+        </div>
+
+        <!-- PROGRESSO -->
+
+        <div class="progress">
+
+            <div id="progressBar">
+
+            </div>
+
+        </div>
+
+        <!-- BOTÕES -->
+
+        <div class="actions">
+
+            <button id="convertButton">
+
+                ⚡ Converter
+
+            </button>
+
+            <button
+                id="downloadButton"
+                disabled>
+
+                ⬇ Download
+
+            </button>
+
+        </div>
+
+        <!-- LOADER -->
+
+        <div id="loader">
+
+            <div class="spinner"></div>
+
+            <span>
+
+                Convertendo...
+
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+     <div id="toastContainer"></div>
+
+<section class="container">
+
+    <div id="preview">
+
+    </div>
+
+</section>
+
+<script src="../js/converter.js"></script>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.5.136/pdf.min.js"></script>
+</html>
